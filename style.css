@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.Banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(RVDA3772.JPG);
+    background-size: cover;
+    background-position: center;    
+}
+.cdm{
+    width: 100%;
+    height: 100%;
+    background-color: dimgray;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.logo{
+    width: 400px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+    cursor: none;
+    font-size: 17;
+    text-align:center;
+    font-weight: bold;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; 
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+.pngs{
+    width: 12px;
+    margin-top: auto;
+    color: darkblue;
+}
+.pngs1{
+    width: 22px;
+    margin-top: auto;
+}
+.pngs2{
+    width: 20px;
+    margin-top: auto;
+}
+.pngs3{
+    margin-top: auto;
+    width: 35px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: azure;
+}
+.content h2{
+    font-size: 30px;
+    margin-top: 50px;
+    text-shadow: 2px 2px #4169a1;
+}
+.content p{
+    margin-top: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 150px ;
+    margin-right: 150px ;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    padding: 15px 0;
+    text-align: center;
+    color: aliceblue;
+    margin: 20px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #4169a1;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+span{
+    background: #009688;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+    
+}
+button:hover span{
+    border: none;
+}
+.clearfix{
+    zoom: 1;
+}
+.cdma{
+    background-color: darkblue;
+    width: 100%;
+    height: 20%;
+    background-size: cover;
+    background-position: center; 
+    
+}
+.footc{
+    margin-left:  50px ;
+    margin-top: -50px;
+}
+.footc h2{
+    color: lightgrey;
+    text-transform: uppercase;
+}
+.footc ul li{
+    list-style: none;
+    display:list-item;
+    line-height: 50px;
+    color: ghostwhite;
+    margin-left: 20px;
+    position: relative;
+    cursor: none;
+    }
+.footc ul1 li1{
+    list-style: none;
+    display:inline-flex;
+    line-height: 50px;
+    margin: 0px;
+    position: relative;
+    cursor: none;
+    }
+.rodi{
+    width: 300px;
+}
+
